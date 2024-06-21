@@ -3,27 +3,27 @@
    padding: 0;
    box-sizing: border-box;
 }
-
+ 
 .shrekContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 150px;
     padding: 0 30px;
-
+ 
 }
 .header-img{
-    width: 20%;
-    
+    max-width: 350px;
+   
 }
-
+ 
 .shrekList nav{
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-} 
+}
 .shrekList nav ul {
     display: flex;
     gap: 20px;
@@ -31,7 +31,7 @@
 .shrekList nav ul li {
     list-style: none;
 }
-
+ 
 .shrekButton {
     border: none;
     background-color: transparent;
@@ -43,37 +43,36 @@
     cursor: pointer;
     font-weight: 600;
 }
-
+ 
 .shrekList nav ul li a {
     text-decoration: none;
     font-size: 25px;
     color:#b9b927;
     font-weight: 600;
 }
-
+ 
 .shrekButton:hover {
     background-color:#B9B827;
     color: white;
 }
-
-
+ 
+ 
 main{
     display: flex;
     align-items:center;
    justify-content: center;
-   position: relative;
-  
+ 
+   
 }
-
 .mainHeader{
     color: #80AA35;
     font-size: 250px;
     flex-direction: column;
     margin-top: 50px;
     text-shadow: 5px 10px 5px #5e9b0aae;
-    
+    margin-bottom: -50px;
 }
-
+ 
 .mainParagraph{
     margin-top:30px ;
     width: 600px;
@@ -93,9 +92,8 @@ main{
 }
 main > section{
     position: absolute;
-    bottom: 10px;
-    right: 150px;
-    flex: 0 0 auto;
+   bottom: 10px;
+   right: 150px;
 }
 .vine{
     top: 430px;
